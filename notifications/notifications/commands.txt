@@ -1,0 +1,9 @@
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "-1001543152527", "text": "NASTIA I CAN SEE YOU", "disable_notifications": false}' \
+     https://api.telegram.org/bot5357651485:AAH_94GeIQ2FwKj4-FDUJ5oExy5ou0NtrxU/sendMessage
+
+      java "-DconfigFile=notifications/telegram.json" -jar allure-notifications-4.1.jar
+
+      java "-DconfigFile=notification/telegram.json" -jar allure-notifications-4.1.(2)jar
+
